@@ -36,4 +36,6 @@ There are all SVG graphics files, made with Inkscape and exported to res/drawabl
  * *pl.tripcomputer.http*
   # ClientInterface: object for communicating with GAE webservice
 
- * *pl.tripcomputer.http*
+ * *pl.tripcomputer.layers*
+  # Layer: base abstract object for drawing layer objects (bearing, compass, cross, grid, info, location, stats, tracks, waypoints)
+
