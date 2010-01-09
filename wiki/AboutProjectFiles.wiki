@@ -23,3 +23,11 @@ There are all SVG graphics files, made with Inkscape and exported to res/drawabl
   # MainView: extended SurfaceView for drawing
   # Preferences: settings manager
   # ServiceDataReceiver: gets location from service
+
+ * *pl.tripcomputer.custom*
+  # EditGeoPos: implementation of location edits layout
+
+ * *pl.tripcomputer.data.common*
+  # Database: main database object
+
+ * *pl.tripcomputer.*
