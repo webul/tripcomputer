@@ -54,3 +54,8 @@ There are all SVG graphics files, made with Inkscape and exported to res/drawabl
   # UIElement: base User Interface object for drawing
   # UIButton: base UI drawable button object
   # UIScreen: drawable UI container
+
+ * *pl.tripcomputer.webservice*
+  # WebServiceOperation: abstract class for creating web operations (download/send waypoints, etc..) on GAE web service
+
+That's not all modules and packages, there is a lot more. Just browse sources and all (I hope) become clear !
