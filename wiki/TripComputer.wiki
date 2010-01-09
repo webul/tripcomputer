@@ -29,6 +29,12 @@ After four months, version 1.5 with many improvements has been released.
 
 === Web Service Access ===
 
-TripComputer can exchange data with GAE web service:
+Application can exchange data with GAE web service:
 
-[http://tripcomputerwebservice.appspot.com TripComputer Mapa]
+[http://tripcomputerwebservice.appspot.com TripComputer Mapa] (for now in Polish).
+
+It just connects with http client to web service. At this time (version 1.5), user can send, search for and download waypoints directly to a device.
+
+Also, user can go to GAE link given above and login to web service via browser. Web application shows waypoints sent by user on a Google Map view and these waypoints can be fully edited.
+
+There are some improvements waiting to be done: for example, adding new waypoints directly in browser.
