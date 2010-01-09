@@ -1,6 +1,6 @@
 #summary Project structure
 
-First, to develop, you need Eclipse (for example JEE) with latest JDK and then Android SDK installed. Current version of TripComputer is compatible with SDK version 1.5, so you need at least SDK 1.5 to build project.
+First, to develop, you need Eclipse (for example JEE) with latest JDK and then Android SDK installed. Current version (1.5) of TripComputer is compatible with SDK version 1.5, so you need at least SDK 1.5 to build project.
 
  * [http://java.sun.com/javase/downloads/index.jsp Sun JDK]
  * [http://www.eclipse.org/downloads/ Eclipse]
