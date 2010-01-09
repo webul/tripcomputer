@@ -39,3 +39,15 @@ There are all SVG graphics files, made with Inkscape and exported to res/drawabl
  * *pl.tripcomputer.layers*
   # Layer: base abstract object for drawing layer objects (bearing, compass, cross, grid, info, location, stats, tracks, waypoints)
 
+ * *pl.tripcomputer.loader*
+  # DataLoader: main loader objects, holding all database data in specialized collections for fast processing
+
+ * *pl.tripcomputer.map*
+  # Mercator: position projection class, that converts sphere wgs84 to flat position
+  # Screen: flat Mercator position to screen coords
+  # Viewport: flat projection view manager
+
+ * *pl.tripcomputer.service*
+  # TripComputerService: main Service module for recording track data in background
+
+ * *pl.tripcomputer.service*
