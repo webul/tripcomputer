@@ -25,7 +25,7 @@ With such a lot of information about your position, you can go everywhere you wa
 === Version information ===
 First, 1.0 official version of application has been introduced in 1 September of 2009.
 
-After four months, version 1.5 with many improvements has been released.
+After four months, version 1.5 with many improvements has been released in January 2010.
 
 
 === Web Service Access ===
