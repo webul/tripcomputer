@@ -1,7 +1,9 @@
 #summary Off-road personal navigation utility
 
+
 == Introduction ==
 TripComputer is a personal off-road navigation utility software for Google Android phone, that has been created for active people, who love travel by hike or bike.
+
 
 === Details ===
 Application does not use Internet connection or Google Maps for navigation or track recording, but you can share your data to others, or store your data on server.
