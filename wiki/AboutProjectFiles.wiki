@@ -30,4 +30,10 @@ There are all SVG graphics files, made with Inkscape and exported to res/drawabl
  * *pl.tripcomputer.data.common*
   # Database: main database object
 
- * *pl.tripcomputer.*
+ * *pl.tripcomputer.gps*
+  # GpsReader: abstract base for service and activity location readers
+
+ * *pl.tripcomputer.http*
+  # ClientInterface: object for communicating with GAE webservice
+
+ * *pl.tripcomputer.http*
