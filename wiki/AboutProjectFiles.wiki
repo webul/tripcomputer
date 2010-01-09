@@ -50,4 +50,7 @@ There are all SVG graphics files, made with Inkscape and exported to res/drawabl
  * *pl.tripcomputer.service*
   # TripComputerService: main Service module for recording track data in background
 
- * *pl.tripcomputer.service*
+ * *pl.tripcomputer.ui*
+  # UIElement: base User Interface object for drawing
+  # UIButton: base UI drawable button object
+  # UIScreen: drawable UI container
