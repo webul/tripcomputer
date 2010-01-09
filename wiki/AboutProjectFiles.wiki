@@ -12,6 +12,8 @@ One of non-standard project folder is "gfx".
 
 There are all SVG graphics files, made with Inkscape and exported to res/drawable as PNG.
 
+Folder res/values-pl has Polish translation data. Its content should be localized after synchronizing with res/values folder.
+
 === Most important packages details ===
 
  * *pl.tripcomputer*
