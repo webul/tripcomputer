@@ -1,0 +1,17 @@
+#summary Project structure
+
+One of non-standard project folder is "gfx".
+
+There are all SVG graphics files, made with Inkscape and exported to res/drawable as PNG.
+
+=== Most important packages details ===
+
+ * *pl.tripcomputer*
+  # Command: main command dispatcher
+  # CommandData: command parameter object
+  # Main: commands implementation
+  # MainState: running state of UI objects
+  # MainThread: drawing and processing loop
+  # MainView: extended SurfaceView for drawing
+  # Preferences: settings manager
+  # ServiceDataReceiver: gets location from service
