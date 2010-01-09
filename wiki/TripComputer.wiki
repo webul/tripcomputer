@@ -40,5 +40,6 @@ Also, user can go to GAE link given above and login to web service via browser. 
 There are some improvements waiting to be done: for example:
  * adding new waypoints directly in browser
  * creating routes of waypoints for a trip
+ * multilanguage (ENGlish/POLish switchable) support
 
-If you are interested in developing GAE WebService or HTML/JS frontend, just drop me an email. 
+If you are interested in developing GAE WebService or HTML/JS frontend, just drop me an email.
