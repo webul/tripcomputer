@@ -1,4 +1,4 @@
-#summary Off-road personal navigation utility.
+#summary Off-road personal navigation utility
 
 == Introduction ==
 
