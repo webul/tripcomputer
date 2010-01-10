@@ -2,4 +2,4 @@
 
 === version *1.5* ===
 
-...
+After code cleanup, project is now Open Source !
