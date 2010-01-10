@@ -1,4 +1,4 @@
-#summary List of future improvements to do and suggestions.
+#summary List of suggestions and future improvements to do.
 
 * 1. OpenStreetMap and other (topo) maps off-line handling*
 
@@ -15,3 +15,5 @@
 
  * entering direction and distance
  * additional checkbox "Project target", enables controls Distance, Bearing and Calculate
+
+Project is waiting for your own idea !
