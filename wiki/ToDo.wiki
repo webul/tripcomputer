@@ -17,7 +17,7 @@
 * 3. Adding new waypoint with location based on projection*
 
  * entering direction and distance
- * additional checkbox "Project target", enables controls Distance, Bearing and Calculate
+ * additional checkbox "Project target" enables controls Distance, Bearing and Calculate
 
 
 * 4. New menu option: Send SMS With Location*
