@@ -2,8 +2,9 @@
 
 
 == Introduction ==
-TripComputer is a personal off-road navigation utility software for Google Android phone, that has been created for active people, who love travel by hike or bike.
+TripComputer is a personal off-road GPS navigation utility software for Google Android phone, that has been created for active people, who love travel by hike or bike.
 
+<wiki:gadget url="http://www.ohloh.net/p/tripcomputer/widgets/project_factoids.xml" width="340" height="170" border="0" />
 
 === Details ===
 Application does not use Internet connection or Google Maps for navigation or track recording, but you can share your data to others, or store your data on server.
