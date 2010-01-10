@@ -1,4 +1,4 @@
-#summary ToDo. List of future improvements and suggestions.
+#summary List of future improvements to do and suggestions.
 
 * 1. OpenStreetMap and other (topo) maps off-line handling*
   * required tool for creating maps cache and data file
