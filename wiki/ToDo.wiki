@@ -40,6 +40,10 @@
 
 * 10. Creating ROUTES (simple track made of waypoints) on web map service and downloading ROUTE to phone*
 
+* 11. GPX import*
 
+* 12. Notification/alarm if selected waypoint in range (talks distance)*
+
+* 13. Navigation mode Follow Track - phone talks if you are going off track*
 
 === Project is waiting for your own idea ! ===
