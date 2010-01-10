@@ -1,6 +1,6 @@
 #summary ToDo. List of future improvements and suggestions.
 
-1. *OpenStreetMap and other (topo) maps off-line handling*
+* 1. OpenStreetMap and other (topo) maps off-line handling*
   * required tool for creating maps cache and data file
   * map tiles can be saved to sd card
   * loading and displaying tiles in a view
