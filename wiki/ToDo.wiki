@@ -43,6 +43,8 @@
 
 * 9. Kalman Filter for improving GPS readings*
 
+ * implementation in NDK ?
+
 
 * 10. Creating ROUTES (simple track made of waypoints) on web map service and downloading ROUTE to phone*
 
