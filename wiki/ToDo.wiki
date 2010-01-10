@@ -48,4 +48,11 @@
 
 * 14. Navigation mode _Return Home_*
 
+* 15. Proper handling all devices, SDK higher than 1.6*
+
+* 16. Proper handling of HI-RES devices screens*
+
+* 17. Trips history*
+
+
 === Project is waiting for your own idea ! ===
