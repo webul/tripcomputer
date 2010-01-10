@@ -9,4 +9,9 @@
 
 * 2. Adding waypoints connected to track currently recording*
 
- * idea #1: selecting wpt connection in wpt edit dialog (alone/connected to current track)
+ * selecting wpt connection in wpt edit dialog (alone/connected to current track)
+
+* 3. Adding new waypoint, with location based on projection*
+
+ * entering direction and distance
+ * additional checkbox "Project target", enables controls Distance, Bearing and Calculate
