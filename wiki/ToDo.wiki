@@ -29,4 +29,4 @@
  * After confirmation, new waypoint is created in database with phone number/contact name, sms time, "person" type.
 
 
-*Project is waiting for your own idea !*
+=== Project is waiting for your own idea ! ===
