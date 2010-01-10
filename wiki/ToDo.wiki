@@ -36,5 +36,10 @@
 
 * 8. Launcher icon in 2.0 SDK style*
 
+* 9. Kalman Filter for improving GPS readings*
+
+* 10. Creating ROUTES (simple track made of waypoints) on web map service and downloading ROUTE to phone*
+
+
 
 === Project is waiting for your own idea ! ===
