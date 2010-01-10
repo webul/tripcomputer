@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+  <ScrollView android:id="@+id/scrollView"
+  	android:scrollbars="vertical"
+  	android:layout_weight="1"
+  	android:layout_width="fill_parent" android:layout_height="fill_parent">  					
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:padding="10sp"
+			android:layout_weight="1"	
+			android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			
+			<!-- measure system -->
+			<TextView android:id="@+id/LabelMeasureSystem"
+				android:text="@string/labelMeasureSystem"
+				android:layout_weight="0"	
+				android:layout_marginBottom="@dimen/labelBottom"		
+				style="@style/Label"					
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				
+			<RadioGroup android:id="@+id/groupMeasureSystem"
+				android:layout_marginBottom="@dimen/marginBottom"		
+				android:layout_width="wrap_content" android:layout_height="wrap_content">
+				
+				<RadioButton android:text="@string/labelMeasureSystemUSA"
+					style="@style/Label"			
+					android:id="@+id/rbtnMeasureSystemUSA" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+					
+				<RadioButton android:text="@string/labelMeasureSystemEurope"
+					style="@style/Label"					
+					android:id="@+id/rbtnMeasureSystemEurope" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+				
+			</RadioGroup>
+	
+			<!-- location update period -->
+			<TextView android:id="@+id/LabelLocationUpdatePeriod"
+				android:text="@string/labelLocationUpdatePeriod"
+				android:layout_weight="0"	
+				android:layout_marginBottom="@dimen/labelBottom"		
+				style="@style/Label"					
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+					
+			<Spinner android:id="@+id/listLocationUpdatePeriod"
+				android:layout_marginBottom="@dimen/labelBottom"		
+				android:layout_width="fill_parent" android:layout_height="wrap_content"></Spinner>
+	
+			<TextView android:id="@+id/LabelLocationUpdatePeriod"
+				android:text="@string/labelLocationUpdatePeriodInfo"
+				android:paddingLeft="6sp" android:paddingRight="6sp"
+				android:layout_weight="0"	
+				android:layout_marginBottom="@dimen/marginBottom"			
+				style="@style/LabelDesc"					
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+			<!-- location accuracy -->
+			<TextView android:id="@+id/LabelLocationAccuracy"
+				android:text="@string/labelLocationAccuracy"
+				android:layout_weight="0"	
+				android:layout_marginBottom="@dimen/labelBottom"		
+				style="@style/Label"					
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				
+			<Spinner android:id="@+id/listLocationAccuracy"
+				android:layout_marginBottom="@dimen/labelBottom"		
+				android:layout_width="fill_parent" android:layout_height="wrap_content"></Spinner>
+				
+			<TextView android:id="@+id/LabelLocationAccuracyInfo"
+				android:text="@string/labelLocationAccuracyInfo"
+				android:paddingLeft="6sp" android:paddingRight="6sp"
+				android:layout_weight="0"	
+				android:layout_marginBottom="@dimen/marginBottom"			
+				style="@style/LabelDesc"					
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				
+			<!-- grid visible -->
+			<CheckBox android:text="@string/labelShowGrid" android:id="@+id/chkShowGrid"
+				style="@style/Label"					
+				android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	
+			<!-- location edit format -->
+			<CheckBox android:text="@string/labelLocationEditDecimal" android:id="@+id/chkLocationEditDecimal"
+				style="@style/Label"					
+				android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+				
+		</LinearLayout>
+
+	</ScrollView>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:paddingTop="5sp" android:paddingLeft="4sp" android:paddingRight="4sp" android:paddingBottom="1sp"
+		android:orientation="horizontal"
+  	android:layout_weight="0"		
+		android:background="@drawable/bottom_bar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+			<Button android:id="@+id/ButtonOK"
+				android:text="@string/labelDone"
+				android:layout_weight="1"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			
+	</LinearLayout>			
+	
+</LinearLayout>

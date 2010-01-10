@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:paddingLeft="6sp"
+	android:paddingRight="6sp"
+	android:orientation="vertical"		
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<CheckBox android:id="@+id/chkToDownload"
+			android:text=""
+			android:layout_marginTop="3sp"
+			android:layout_marginRight="6sp"
+			android:gravity="center"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"/>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:paddingBottom="4sp"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		  <TextView android:id="@+id/WaypointItemName"
+		 		android:text="WaypointName"
+	 			style="@style/ListItemHeader"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+			  <TextView android:id="@+id/WaypointItemDistance"
+					android:paddingRight="6sp"
+			 		android:textColor="#ff227722"
+			 		android:textSize="18sp" android:text="0.0 km"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			
+			  <TextView android:id="@+id/WaypointItemType"
+					android:paddingRight="6sp"
+			 		android:textColor="#ffee7700"
+			 		android:textSize="18sp"
+			 		android:text="type"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		
+			</LinearLayout>
+
+		</LinearLayout>
+		
+	</LinearLayout>
+	
+</LinearLayout>

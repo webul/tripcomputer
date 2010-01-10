@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:visibility="visible"
+	android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+	<!-- DECIMAL -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/LayoutDecimal"
+		android:visibility="visible"
+		android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+		<!-- DECIMAL LAT -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:paddingLeft="16sp"
+			android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	
+			<TextView android:id="@+id/LabelWaypointLocation_lat"
+				android:text="@string/labelWaypointLocation_lat"
+				android:layout_weight="0"
+				style="@style/Label"
+				android:gravity="right" android:layout_marginRight="8sp"
+				android:layout_width="@dimen/labelGeoPosWidth" android:layout_height="wrap_content" />
+	
+			<EditText android:id="@+id/EditLocationDec_lat"
+				android:inputType="numberDecimal|numberSigned"
+				android:layout_marginBottom="@dimen/labelBottom" android:layout_weight="1"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				
+			<TextView android:text="º" android:layout_weight="0"
+				style="@style/CoordsSign"
+				android:layout_marginLeft="2sp" android:layout_marginRight="4sp"
+				android:layout_width="wrap_content" android:layout_height="fill_parent" />
+				
+		</LinearLayout>
+	
+		<!-- DECIMAL LON -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:paddingLeft="16sp"
+			android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	
+			<TextView android:id="@+id/LabelWaypointLocation_lon"
+				android:text="@string/labelWaypointLocation_lon"
+				android:layout_weight="0"
+				style="@style/Label"
+				android:gravity="right" android:layout_marginRight="8sp"
+				android:layout_width="@dimen/labelGeoPosWidth" android:layout_height="wrap_content" />
+	
+			<EditText android:id="@+id/EditLocationDec_lon"
+				android:inputType="numberDecimal|numberSigned"
+				android:layout_marginBottom="@dimen/labelBottom" android:layout_weight="1"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				
+			<TextView android:text="º" android:layout_weight="0"
+				style="@style/CoordsSign"
+				android:layout_marginLeft="2sp" android:layout_marginRight="4sp"
+				android:layout_width="wrap_content" android:layout_height="fill_parent" />				
+										
+		</LinearLayout>
+		
+	</LinearLayout>
+
+	<!-- SECONDS -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/LayoutSeconds"
+		android:visibility="visible"
+		android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+		<!-- LAT -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:paddingLeft="12sp"
+			android:gravity="center_vertical"
+			android:layout_marginBottom="@dimen/labelBottom"
+			android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	
+			<TextView android:id="@+id/LabelWaypointLocation_lat"
+				android:text="@string/labelWaypointLocation_lat"
+				android:layout_weight="0"
+				style="@style/Label"
+				android:gravity="right|center" android:layout_marginRight="8sp"
+				android:layout_width="@dimen/labelGeoPosWidth" android:layout_height="fill_parent" />
+	
+			<EditText android:id="@+id/EditLocation_lat_deg"
+				android:inputType="number"
+				android:layout_weight="1"
+				android:maxLength="3"
+				android:layout_marginTop="1sp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	
+			<TextView android:text="º" android:layout_weight="0"
+				style="@style/CoordsSign"
+				android:layout_marginLeft="2sp" android:layout_marginRight="4sp"
+				android:layout_width="wrap_content" android:layout_height="fill_parent" />
+	
+			<EditText android:id="@+id/EditLocation_lat_min"
+				android:inputType="number"
+				android:layout_weight="1"
+				android:maxLength="2"
+				android:layout_marginTop="1sp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	
+			<TextView android:text="’" android:layout_weight="0"
+				style="@style/CoordsSign"
+				android:layout_marginLeft="2sp" android:layout_marginRight="4sp"
+				android:layout_width="wrap_content" android:layout_height="fill_parent" />
+	
+			<EditText android:id="@+id/EditLocation_lat_sec"
+				android:inputType="number|numberDecimal"
+				android:layout_weight="1"
+				android:maxLength="6"
+				android:layout_marginTop="1sp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	
+			<TextView android:text="”" android:layout_weight="0"
+				style="@style/CoordsSign"
+				android:layout_marginLeft="2sp" android:layout_marginRight="4sp"
+				android:layout_width="wrap_content" android:layout_height="fill_parent" />
+	
+			<Button android:id="@+id/btnDirLat" android:text="N"
+				android:textSize="20sp"
+				android:layout_weight="0"
+				android:layout_width="44sp" android:layout_height="wrap_content" />				
+				
+		</LinearLayout>
+	
+		<!-- LON -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:paddingLeft="12sp"
+			android:gravity="center_vertical"
+			android:layout_marginBottom="@dimen/labelBottom"
+			android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	
+			<TextView android:id="@+id/LabelWaypointLocation_lon"
+				android:text="@string/labelWaypointLocation_lon"
+				android:layout_weight="0"
+				style="@style/Label"
+				android:gravity="right|center" android:layout_marginRight="8sp"
+				android:layout_width="@dimen/labelGeoPosWidth" android:layout_height="fill_parent" />
+	
+			<EditText android:id="@+id/EditLocation_lon_deg"
+				android:inputType="number"
+				android:layout_weight="1"
+				android:maxLength="3"
+				android:layout_marginTop="1sp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	
+			<TextView android:text="º" android:layout_weight="0"
+				style="@style/CoordsSign"
+				android:layout_marginLeft="2sp" android:layout_marginRight="4sp"
+				android:layout_width="wrap_content" android:layout_height="fill_parent" />
+	
+			<EditText android:id="@+id/EditLocation_lon_min"
+				android:inputType="number"
+				android:layout_weight="1"
+				android:maxLength="2"
+				android:layout_marginTop="1sp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	
+			<TextView android:text="’" android:layout_weight="0"
+				style="@style/CoordsSign"
+				android:layout_marginLeft="2sp" android:layout_marginRight="4sp"
+				android:layout_width="wrap_content" android:layout_height="fill_parent" />
+	
+			<EditText android:id="@+id/EditLocation_lon_sec"
+				android:inputType="number|numberDecimal"
+				android:layout_weight="1"
+				android:maxLength="6"
+				android:layout_marginTop="1sp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	
+			<TextView android:text="”" android:layout_weight="0"
+				style="@style/CoordsSign"
+				android:layout_marginLeft="2sp" android:layout_marginRight="4sp"
+				android:layout_width="wrap_content" android:layout_height="fill_parent" />
+	
+			<Button android:id="@+id/btnDirLon" android:text="E"
+				android:textSize="20sp"
+				android:layout_weight="0"
+				android:layout_width="44sp" android:layout_height="wrap_content" />				
+				
+		</LinearLayout>
+	
+	</LinearLayout>
+		
+</LinearLayout>

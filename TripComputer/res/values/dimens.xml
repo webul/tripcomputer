@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="labelBottom">2sp</dimen>
+	<dimen name="marginBottom">12sp</dimen>
+	<dimen name="marginBottomSmall">8sp</dimen>
+	<dimen name="marginTitleBottom">4sp</dimen>
+	<dimen name="ctrlPaddingLeft">8sp</dimen>	
+	<dimen name="labelGeoPosWidth">26sp</dimen>
+</resources>

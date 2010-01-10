@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">TripComputer</string>
+	<string name="app_version">version</string>
+	
+	<string name="title_tracks">Tracks</string>
+	<string name="title_newtrack">New Track</string>
+	<string name="title_trackedit">Track Edit</string>
+	<string name="title_trackdetails">Track Details</string>
+	
+	<string name="title_waypoints">Waypoints</string>
+	<string name="title_addwaypoint">Add Waypoint</string>
+	<string name="title_waypointedit">Waypoint Edit</string>
+	<string name="title_waypointdetails">Waypoint Details</string>
+	<string name="title_waypoints_download">Waypoints Download</string>
+
+	<string name="title_settings">Settings</string>
+	<string name="title_about">About</string>
+
+	<string name="display_distance">DISTANCE</string>
+	<string name="display_distance_to_track">DISTANCE TO TRACK</string>
+	<string name="display_distance_to_waypoint">DISTANCE TO WAYPOINT</string>
+	<string name="display_azimuth">AZIMUTH</string>
+	<string name="display_avg_speed">AVERAGE SPEED</string>
+
+	<string name="display_time">TIME</string>
+	<string name="display_time_eta_by_walk">ETA BY WALK</string>
+	<string name="display_time_eta_by_bike">ETA BY BIKE</string>
+	<string name="display_bearing">BEARING</string>
+	<string name="display_altitude">ALTITUDE</string>
+	
+	<string name="gps_no_fix">NO FIX</string>
+
+	<string name="cmd_zoom_in">Zoom In</string>
+	<string name="cmd_zoom_out">Zoom Out</string>
+	<string name="cmd_zoom_location">Zoom To Current Location</string>
+
+	<string name="cmd_add_waypoint">Add Waypoint</string>
+	<string name="cmd_select_track">Select Track</string>
+	<string name="cmd_select_waypoint">Select Waypoint</string>
+	<string name="cmd_change_mode">Change Mode</string>
+
+	<string name="cmd_tracks">Tracks</string>
+	<string name="cmd_waypoints">Waypoints</string>
+	<string name="cmd_track_details">Track details</string>
+	<string name="cmd_waypoint_details">Waypoint details</string>
+	<string name="cmd_settings">Settings</string>
+	
+	<string name="cmd_new_track">New Track</string>
+	<string name="cmd_track_edit">Edit</string>
+	<string name="cmd_track_delete">Delete</string>
+	<string name="cmd_track_pause">Pause</string>
+	<string name="cmd_track_resume">Resume</string>
+	<string name="cmd_track_stop">Stop</string>
+	<string name="cmd_track_show">Show</string>
+	<string name="cmd_track_hide">Hide</string>
+	
+	<string name="cmd_about">About</string>
+	<string name="cmd_tools">Tools</string>
+
+	<string name="cmd_waypoints_search">Find Waypoints</string>	
+	<string name="cmd_set_service_access">Set Web Service Access</string>
+	<string name="cmd_waypoints_download">Waypoints Download</string>
+		
+	<string name="cmd_data_export">Export</string>
+
+	<string name="cmd_waypoint_edit">Edit</string>
+	<string name="cmd_waypoint_upload">Send</string>
+	<string name="cmd_waypoint_delete">Delete</string>
+
+	<string name="cmd_mode_tracks">Tracks</string>
+	<string name="cmd_mode_compass">Compass</string>
+	<string name="cmd_mode_loc_to_sel_wpt">Location To Selected Waypoint</string>
+	<string name="cmd_mode_loc_to_sel_track">Location To Selected Track</string>
+	<string name="cmd_mode_info">Information summary</string>
+	
+	<string name="text_tracklist_is_empty1">Tracks list is empty.</string>	
+	<string name="text_tracklist_is_empty2">To add new track, press <b>Menu</b> and select <b>New Track</b>.</string>
+
+	<string name="text_waypointlist_is_empty1">Waypoint list is empty.</string>	
+	<string name="text_waypointlist_is_empty2">To add new waypoint, press <b>Menu</b> and select <b>Add Waypoint</b>.</string>
+	
+	<string name="labelTrackName">Track name</string>
+	<string name="labelTrackType">For</string>
+	<string name="labelTrackDescription">Description</string>
+	<string name="labelDone">Done</string>
+	<string name="labelRevert">Back</string>
+	<string name="labelBack">Back</string>
+	<string name="labelNoText">none</string>
+	<string name="labelTrackStartTime">Start time</string>
+	<string name="labelTrackSummary">Summary</string>
+	<string name="labelShow">Show</string>
+	<string name="labelHide">Hide</string>
+	<string name="labelWebsite">Open website</string>
+	<string name="labelDownload">Download</string>
+
+	<string name="labelTrackTypeWalk">walk</string>
+	<string name="labelTrackTypeBike">bike</string>
+	
+	<string name="titleAlert">Attention</string>
+	<string name="alert_dialog_ok">OK</string>
+	<string name="alert_dialog_yes">Yes</string>
+	<string name="alert_dialog_no">No</string>
+	
+	<string name="alert_msg_ok">OK</string>
+	<string name="alert_msg_db_access_error">Can\'t access database</string>
+	<string name="alert_msg_data_insert_error">Can\'t insert data</string>
+	<string name="alert_msg_data_update_error">Can\'t update data</string>
+	<string name="alert_msg_data_delete_error">Can\'t delete data</string>
+	<string name="alert_msg_create_table_error">Can\'t create table</string>
+	<string name="alert_msg_table_not_exists">Table does not exists</string>
+	<string name="alert_msg_enter_all_data">Enter all required data</string>
+	<string name="alert_msg_table_access_error">Can\'t get table</string>
+	<string name="alert_msg_data_values_error">Can\'t get values data</string>
+	<string name="alert_msg_more_data_required">More data required for operation</string>
+	<string name="alert_msg_wrong_values">Incorrect values</string>
+	<string name="alert_msg_data_find_error">Can\'t get data</string>
+	
+	<string name="alert_msg_lon_out">Longitude out of range</string>
+	<string name="alert_msg_lat_out">Latitude out of range</string>
+
+	<string name="alert_msg_close_track_error">Can\'t close opened track</string>
+	<string name="alert_msg_resume_recording_error">Can\'t resume track recording</string>
+	
+	<string name="alert_msg_name_too_long">Name is too long. Maximum name length is 32 characters</string>
+	<string name="alert_msg_desc_too_long">Description is too long. Maximum length is 800 characters</string>
+
+	<string name="alert_msg_server_rejected_data">Server rejected data</string>
+
+	<string name="alert_question_delete_track">Delete track ?</string>
+	<string name="alert_question_delete_waypoint">Delete waypoint ?</string>
+	
+	<string name="track_status_not_selected">not selected</string>
+	<string name="track_status_paused">paused</string>
+	<string name="track_status_recording">recording</string>
+	<string name="track_visible">visible</string>
+		
+	<string name="notify_msg_track_paused">Track: %s\n • recording has been paused</string>
+	<string name="notify_msg_track_resumed">Track: %s\n • recording has been resumed</string>
+	<string name="notify_msg_gps_is_locating">Please wait\n • GPS is locating your position</string>
+	<string name="notify_msg_gps_is_locating_still">Please wait\n • GPS is still locating your position</string>
+
+	<string name="labelWaypointName">Waypoint name</string>
+	<string name="labelWaypointType">Type</string>
+	<string name="labelWaypointDescription">Description</string>
+	<string name="labelWaypointLocation">Location</string>
+	<string name="labelWaypointLocation_lon">lon</string>
+	<string name="labelWaypointLocation_lat">lat</string>
+	<string name="labelWaypointLocation_alt">alt</string>
+	<string name="labelWaypointLocationUpdate">update</string>
+	<string name="labelWaypointETA">Estimated Time of Arrival</string>
+
+	<string name="labelWaypointLocationDetails_alt">altitude</string>
+	<string name="labelWaypointDetailsETA">by walk: %s, by bike: %s</string>
+			
+	<string name="labelTrackSummaryAvgSpeed">average speed</string>
+			
+	<string-array name="waypoint_types">
+		<item>other</item>
+		<item>home</item>
+		<item>camp</item>
+		<item>river</item>
+		<item>lake</item>
+		<item>forest</item>
+		<item>tree</item>
+		<item>park</item>
+		<item>crossing</item>
+		<item>bridge</item>
+		<item>road</item>
+		<item>tower</item>
+		<item>fishing area</item>
+		<item>car</item>		
+		<item>parking</item>		
+		<item>medical</item>
+		<item>church</item>
+		<item>box</item>
+	</string-array>
+
+	<string name="notify_msg_loc_service_disabled">GPS location service is disabled</string>
+
+	<string name="status_bar_msg_track">Track</string>
+
+	<string name="progress_title">Please wait</string>
+	<string name="progress_text">Loading data</string>
+	<string name="progress_text_gps">Locating your position</string>
+	<string name="progress_text_server_connecting">Connecting to server</string>
+
+	<string name="label_track_point_start">start</string>
+	<string name="label_track_point_finish">finish</string>
+	<string name="label_track_point_last_position">last position</string>
+	
+	<string name="labelMeasureSystem">Measure system</string>
+	<string name="labelLocationUpdatePeriod">Location update period</string>
+	<string name="labelLocationUpdatePeriodInfo">long period time saves battery, short makes better track precision</string>	
+	<string name="labelShowGrid">Grid visible</string>
+	<string name="labelLocationEditDecimal">Enter location in decimal format</string>
+	
+	<string name="labelLocationAccuracy">Track recording accuracy</string>
+	<string name="labelLocationAccuracyInfo">smaller value results in better precision, but requires good sky visibility</string>	
+
+	<string name="labelMeasureSystemUSA">Imperial</string>
+	<string name="labelMeasureSystemEurope">Metric</string>
+
+	<string-array name="location_update_periods">
+		<item>continuously</item>
+		<item>2 seconds</item>
+		<item>5 seconds</item>
+		<item>10 seconds</item>
+		<item>15 seconds (default)</item>
+		<item>30 seconds</item>
+		<item>45 seconds</item>
+		<item>1 minute</item>
+	</string-array>
+
+	<string name="label_ui_mode">MODE</string>
+
+	<string-array name="status_ui_modes">
+		<item>TRACKS</item>
+		<item>COMPASS</item>
+		<item>TO SELECTED WPT</item>
+		<item>TO SELECTED TRACK</item>
+		<item>INFORMATION</item>
+	</string-array>
+
+	<string name="location_tracking_on">Location tracking enabled</string>
+	<string name="location_tracking_off">Location tracking disabled</string>
+	
+	<string name="azimuth_degree">º</string>
+	
+	<string name="alert_question_enable_loc_service">Do you want to enable GPS location service ?</string>
+	<string name="alert_calibrate_compass">Compass accuracy is low, please move device around in all directions to recalibrate</string>
+	
+	<string name="info_mode_frame_location">Location</string>
+	<string name="info_mode_frame_altgraph">Altitude Graph</string>
+
+	<string name="btnGetServiceAccess">Get Access Code</string>
+	<string name="btnSetServiceAccess">OK</string>
+
+	<string name="descServiceAccess1">To get access to web service, you need to enter your email address and access code.</string>
+	<string name="descServiceAccess2">If you do not have access code, enter your email address and press
+  	Get Access Code button. Your private Access Code will be sent to your email address.</string>	
+
+	<string name="labelEmailAddress">Email Address</string>
+	<string name="labelAccessCode">Access Code</string>
+	
+	<string name="connection_error">Sorry, connection error (%d). Check if internet access is enabled and try again</string>
+	<string name="access_code_invalid">Sorry, access code is invalid</string>
+	<string name="email_invalid">Sorry, email address is invalid</string>
+
+	<string name="msg_access_code_sent">Your Access Code has been sent</string>
+	<string name="msg_access_code_correct">Thank you ! Your Access Code is correct. You have access to web service</string>	
+
+	<string name="title_waypoint_upload">Send Waypoint</string>
+	<string name="labelUpload">Send</string>
+		
+	<string name="labelWaypointVisibilityText">Waypoint visibility</string>
+	<string name="labelWaypointPublicText">public</string>	
+	<string name="labelWaypointPublicDesc">waypoint will be visible to all users and can NOT be updated anymore.</string>	
+
+	<string name="wptStatusUpdate">waypoint already exists on server and will be updated.</string>
+	<string name="wptStatusUpdatePublic">waypoint already exists on server. It is public, so CAN NOT be updated.</string>
+	<string name="wptStatusAdd">new waypoint to send.</string>
+	
+	<string name="wptItemTextPublic">public</string>
+	<string name="wptItemTextPrivate">private</string>
+	<string name="wptItemTextSent">sent</string>
+		
+	<string name="alert_msg_gps_no_fix">Sorry, GPS has not found your location yet</string>
+	<string name="alert_msg_gps_accuracy_low">Please wait for better GPS location accuracy</string>
+	
+	<string name="title_find_waypoints">Find Waypoints</string>
+	<string name="labelRadioBtnPublic">public</string>
+	<string name="labelRadioBtnPrivate">private</string>
+	<string name="labelInLocationDistance">Distance from current location</string>
+	<string name="labelFind">Find</string>
+
+	<string name="alert_no_waypoints_found">No waypoints found</string>
+	<string name="alert_no_waypoints_selected">No waypoints selected to download</string>
+	<string name="alert_no_waypoints_added">No waypoints downloaded</string>	
+	<string name="alert_no_waypoints_to_download">No waypoints to download</string>
+
+	<string name="find_distance_0">near</string>
+	<string name="find_distance_1">far</string>
+	<string name="find_distance_2">very far</string>
+	
+	<string name="label_btn_more_items">More Items</string>
+	
+	<string name="title_export">Export</string>
+	<string name="title_export_track_to_kml">Export Track To KML file</string>		
+	<string name="labelExport">Export</string>	
+
+	<string-array name="export_targets">
+		<item>send with email</item>
+		<item>write to memory card</item>
+	</string-array>	
+
+	<string name="label_track_start">Start</string>
+	<string name="label_track_finish">Finish</string>
+	<string name="label_track_point">point</string>
+
+	<string name="label_file">File</string>
+	<string name="label_saved_in">saved in</string>
+	<string name="label_file_save_error">Can\'t save file to storage memory</string>
+
+	<string name="export_track_info_time">Total time</string>
+	<string name="export_track_info_distance">Total distance</string>
+	<string name="export_track_info_type">Type</string>
+	<string name="export_track_info_start_time">Start time</string>
+	<string name="export_track_info_avg_speed">Average speed</string>
+	<string name="export_track_info_points">Points</string>
+
+	<string name="exporting_data">Exporting data..</string>
+	<string name="send_email_select">Select</string>	
+	<string name="send_email_subject_track">Track data from TripComputer</string>
+	<string name="send_email_body_summary">Look at attachment for data file.</string>
+	
+	<string-array name="location_accuracy">
+		<item>10 m</item>
+		<item>20 m</item>
+		<item>50 m</item>
+		<item>100 m</item>
+		<item>200 m (default)</item>
+	</string-array>
+	
+	<string name="alert_msg_enter_valid_email">Enter valid email address</string>
+	<string name="alert_msg_enter_accesscode">Enter access code</string>
+	<string name="alert_msg_leave_access_code_empty">Access Code field must be empty !</string>
+	
+	<string name="labelAboutText1">TripComputer saves tracks and places wherever you go. And help you find your way home.</string>
+	<string name="labelAboutText2">TripComputer does use GPS to locate your position. Saves your trips, shows waypoints, bearing, distance, time and many more.</string>
+	<string name="labelAboutCopy">Piotr Zagawa © 2009 - 2010</string>
+		
+</resources>

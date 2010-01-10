@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/scrollView"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:padding="10sp"
+			android:layout_weight="1"	
+			android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+		  <TextView android:id="@+id/LabelTrackName"
+				android:text="@string/labelTrackName"
+				android:layout_weight="0"
+				android:layout_marginBottom="@dimen/labelBottom"		
+				style="@style/Label"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+						
+			<EditText android:id="@+id/EditTrackName"
+				android:lines="1" android:maxLines="1" android:singleLine="true"
+				android:layout_marginBottom="@dimen/marginBottom"		
+				android:layout_weight="0"
+				android:inputType="textCapWords"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:orientation="vertical"			
+				android:layout_marginBottom="@dimen/marginBottom"		
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				
+			  <TextView android:id="@+id/LabelTrackType"
+					android:text="@string/labelTrackType"
+					android:layout_weight="0"
+					android:layout_marginBottom="@dimen/labelBottom"		
+					style="@style/Label"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+							
+				<CheckBox android:text="@string/labelTrackTypeWalk" android:id="@+id/chkTrackTypeWalk"
+					style="@style/Label"					
+					android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+						
+				<CheckBox android:text="@string/labelTrackTypeBike" android:id="@+id/chkTrackTypeBike"
+					style="@style/Label"					
+					android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+				
+			</LinearLayout>
+		
+		  <TextView android:id="@+id/LabelTrackDescription"
+				android:text="@string/labelTrackDescription"
+				android:layout_weight="0"	
+				android:layout_marginBottom="@dimen/labelBottom"		
+				style="@style/Label"					
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+						
+			<EditText android:id="@+id/EditTrackDescription"
+				android:layout_marginBottom="@dimen/marginBottom"	
+				android:layout_weight="1"
+				android:gravity="top"
+				android:lines="7"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				
+		</LinearLayout>
+	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:paddingTop="5sp" android:paddingLeft="4sp" android:paddingRight="4sp" android:paddingBottom="1sp"
+			android:orientation="horizontal"
+			android:background="@drawable/bottom_bar"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			
+			<Button android:id="@+id/ButtonOK"
+				android:text="@string/labelDone"
+				android:layout_weight="1"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	
+			<Button android:id="@+id/ButtonRevert"
+				android:text="@string/labelRevert"
+				android:layout_weight="1"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			
+		</LinearLayout>	
+	
+	</LinearLayout>
+
+</ScrollView>

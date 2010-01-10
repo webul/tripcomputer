@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/scrollView"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:padding="10sp"
+			android:layout_weight="1"	
+			android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+	
+			<TextView android:id="@+id/LabelWaypointName"
+				android:text="@string/labelWaypointName"
+				android:layout_weight="0"	
+				android:layout_marginBottom="@dimen/labelBottom"		
+				style="@style/Label"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			
+			<EditText android:id="@+id/EditWaypointName"
+				android:lines="1" android:maxLines="1" android:singleLine="true"
+				android:layout_marginBottom="@dimen/marginBottom"
+				android:layout_weight="0"
+				android:inputType="textCapWords"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	
+			<TextView android:id="@+id/LabelWaypointType"
+				android:text="@string/labelWaypointType"
+				android:layout_weight="0"	
+				android:layout_marginBottom="@dimen/labelBottom"		
+				style="@style/Label"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				
+			<Spinner android:id="@+id/spinWaypointType" android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:layout_marginBottom="@dimen/marginBottom"/>
+
+		  <TextView android:id="@+id/LabelWaypointDescription"
+				android:text="@string/labelWaypointDescription"
+				android:layout_weight="0"	
+				android:layout_marginBottom="@dimen/labelBottom"		
+				style="@style/Label"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+						
+			<EditText android:id="@+id/EditWaypointDescription"
+				android:layout_marginBottom="@dimen/marginBottom"		
+				android:layout_weight="1"
+				android:gravity="top"
+				android:lines="7"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+			<!-- location update -->
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:orientation="horizontal"
+				android:layout_marginBottom="@dimen/labelBottom"		
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				
+				<TextView android:id="@+id/LabelWaypointLocation"
+					android:text="@string/labelWaypointLocation"
+					android:layout_weight="1"		
+					style="@style/Label"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+				<Button android:id="@+id/btnLocationGet" android:text="@string/labelWaypointLocationUpdate"
+					android:layout_weight="0"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />				
+			
+			</LinearLayout>
+
+			<!-- Custom Edits GeoPos -->
+			<pl.tripcomputer.custom.EditsGeoPos
+				android:id="@+id/EditsGeoPos"
+				android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+			<!-- edit Altitude -->
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:paddingLeft="16sp"
+				android:gravity="right"
+				android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	
+				<TextView android:id="@+id/LabelWaypointLocation_alt"
+					android:text="@string/labelWaypointLocation_alt"
+					android:layout_weight="0"
+					style="@style/Label"
+					android:gravity="right" android:layout_marginRight="8sp"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	
+				<EditText android:id="@+id/EditWaypointLocation_alt"
+					android:inputType="number|numberSigned"
+					android:minEms="3"
+					android:layout_marginBottom="@dimen/labelBottom" android:layout_weight="0"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+											
+				<TextView android:id="@+id/LabelAltitudeSuffix"
+					style="@style/Label"
+					android:text="m"
+					android:layout_weight="0"
+					android:gravity="right"
+					android:layout_marginLeft="2sp" android:layout_marginRight="4sp"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+											
+			</LinearLayout>
+								
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:orientation="vertical"			
+				android:layout_marginBottom="@dimen/marginBottomSmall"		
+				android:layout_width="fill_parent" android:layout_height="wrap_content"/>				
+		
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:paddingTop="5sp" android:paddingLeft="4sp" android:paddingRight="4sp" android:paddingBottom="1sp"
+			android:orientation="horizontal"
+			android:background="@drawable/bottom_bar"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			
+			<Button android:id="@+id/ButtonOK"
+				android:text="@string/labelDone"
+				android:layout_weight="1"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	
+			<Button android:id="@+id/ButtonRevert"
+				android:text="@string/labelRevert"
+				android:layout_weight="1"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			
+		</LinearLayout>	
+
+	</LinearLayout>
+
+</ScrollView>
