@@ -1,7 +1,5 @@
 #summary Version list
 
-=== version *1.5* ===
-
-*_10 January 2010_*
+=== _10 January 2010, version *1.5* ===
 
 After code cleanup, project is now Open Source !
