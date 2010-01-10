@@ -4,7 +4,7 @@
 == Introduction ==
 TripComputer is a personal off-road GPS navigation utility software for Google Android phone, that has been created for active people, who love travel by hike or bike.
 
-=== Factoids ===
+=== Summary ===
 
 || <wiki:gadget url="http://www.ohloh.net/p/tripcomputer/widgets/project_factoids.xml" width="340" height="170" border="0" /> || <wiki:gadget url="http://www.ohloh.net/p/tripcomputer/widgets/project_cocomo.xml" height="250" border="0" /> ||
 
