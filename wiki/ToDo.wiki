@@ -14,7 +14,7 @@
  * selecting wpt connection in wpt edit dialog (alone/connected to current track)
 
 
-* 3. Adding new waypoint, with location based on projection*
+* 3. Adding new waypoint with location based on projection*
 
  * entering direction and distance
  * additional checkbox "Project target", enables controls Distance, Bearing and Calculate
@@ -28,29 +28,41 @@
  * After SN clicked by user, dialogs comes up: "Do you want to add new waypoint received from USER_X ?".
  * After confirmation, new waypoint is created in database with phone number/contact name, sms time, "person" type.
 
+
 * 5. Sending tracks to web service*
+
 
 * 6. Adding photos to waypoints*
 
+
 * 7. UI improvements*
+
 
 * 8. Launcher icon in 2.0 SDK style*
 
+
 * 9. Kalman Filter for improving GPS readings*
 
+
 * 10. Creating ROUTES (simple track made of waypoints) on web map service and downloading ROUTE to phone*
+
 
 * 11. GPX import*
 
 * 12. Notification/alarm if selected waypoint in range (talks distance)*
 
+
 * 13. Navigation mode _Follow Track_ - phone talks if you are going off track*
+
 
 * 14. Navigation mode _Return Home_*
 
+
 * 15. Proper handling all devices, SDK higher than 1.6*
 
+
 * 16. Proper handling of HI-RES devices screens*
+
 
 * 17. Trips history*
 
