@@ -28,5 +28,13 @@
  * After SN clicked by user, dialogs comes up: "Do you want to add new waypoint received from USER_X ?".
  * After confirmation, new waypoint is created in database with phone number/contact name, sms time, "person" type.
 
+* 5. Sending tracks to web service*
+
+* 6. Adding photos to waypoints*
+
+* 7. UI improvements*
+
+* 8. Launcher icon in 2.0 SDK style*
+
 
 === Project is waiting for your own idea ! ===
