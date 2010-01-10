@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+  <ScrollView android:id="@+id/scrollView"
+  	android:scrollbars="vertical"
+  	android:layout_weight="1"
+  	android:layout_width="fill_parent" android:layout_height="fill_parent">  					
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+	
+			<!-- header NAME -->
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_marginLeft="6sp"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+				<ImageView android:id="@+id/itemIconTrack"
+					android:layout_marginRight="6sp"
+					android:layout_gravity="center"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/item_icon_track"/>
+					
+			  <TextView android:id="@+id/InfoTrackName"
+			 		android:text="TrackName"
+			 		style="@style/ListItemHeader"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+			</LinearLayout>
+	
+			<!-- header FOR -->
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_marginLeft="6sp"
+				android:orientation="horizontal"
+				android:layout_marginBottom="@dimen/marginBottom"		
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+		 		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal"
+					android:layout_width="30sp" android:layout_height="fill_parent"/>
+		 	
+			  <TextView android:id="@+id/InfoTrackType"
+					android:paddingRight="6sp"
+			 		android:textColor="#ffee7700"
+			 		android:textSize="18sp"
+			 		android:text="@string/labelNoText"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+					
+			</LinearLayout>					
+				
+			<!-- header START TIME -->
+		  <TextView android:id="@+id/LabelTrackStartTime" android:text="@string/labelTrackStartTime"
+				android:layout_weight="0" android:layout_marginBottom="@dimen/labelBottom"
+				style="@style/LabelGroupHeader"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+			<TextView android:id="@+id/InfoTrackStartTime" android:text="@string/labelNoText"
+				android:layout_marginBottom="@dimen/marginBottom"		
+				android:paddingLeft="@dimen/ctrlPaddingLeft"
+				android:layout_weight="0" android:textSize="16sp"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	
+			<!-- header STATS -->
+		  <TextView android:id="@+id/LabelTrackSummary" android:text="@string/labelTrackSummary"
+				android:layout_weight="0" android:layout_marginBottom="@dimen/labelBottom"
+				style="@style/LabelGroupHeader"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	
+			<TextView android:id="@+id/InfoTrackSummary" android:text="@string/labelNoText"
+				android:layout_marginBottom="@dimen/marginBottom"		
+				android:paddingLeft="@dimen/ctrlPaddingLeft"
+				android:layout_weight="0" android:textSize="16sp"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	
+			<!-- header DESC -->
+		  <TextView android:id="@+id/LabelTrackDescription" android:text="@string/labelTrackDescription"
+				android:layout_weight="0" android:layout_marginBottom="@dimen/labelBottom"
+				style="@style/LabelGroupHeader"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+						
+			<TextView android:id="@+id/InfoTrackDescription"
+				android:layout_marginBottom="@dimen/marginBottom"	
+				android:paddingLeft="@dimen/ctrlPaddingLeft"
+				android:layout_weight="1"
+				android:gravity="top"
+				android:textSize="16sp"
+				android:text="@string/labelNoText"
+				android:layout_width="fill_parent" android:layout_height="fill_parent" />
+			
+		</LinearLayout>
+
+  </ScrollView>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:paddingTop="5sp" android:paddingLeft="4sp" android:paddingRight="4sp" android:paddingBottom="1sp"
+  	android:layout_weight="0"
+		android:orientation="horizontal"		
+		android:background="@drawable/bottom_bar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+		<Button android:id="@+id/ButtonShow"
+			android:text="@string/labelShow"
+			android:layout_weight="1"
+			android:visibility="visible"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+		<Button android:id="@+id/ButtonHide"
+			android:text="@string/labelHide"
+			android:layout_weight="1"
+			android:visibility="gone"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+		<Button android:id="@+id/ButtonRevert"
+			android:text="@string/labelBack"
+			android:layout_weight="1"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+	</LinearLayout>	
+
+</LinearLayout>

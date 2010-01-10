@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<ListView android:id="@+id/list"
+	  android:layout_weight="1"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" />
+		
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:paddingTop="5sp" android:paddingLeft="4sp" android:paddingRight="4sp" android:paddingBottom="1sp"
+  	android:layout_weight="0"
+		android:orientation="horizontal"		
+		android:background="@drawable/bottom_bar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+			<Button android:id="@+id/ButtonOK"
+				android:text="@string/labelDownload"
+				android:layout_weight="1"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	
+			<Button android:id="@+id/ButtonRevert"
+				android:text="@string/labelRevert"
+				android:layout_weight="1"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+	</LinearLayout>	
+	
+</LinearLayout>

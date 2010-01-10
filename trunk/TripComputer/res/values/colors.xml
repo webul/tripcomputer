@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorHeaderBkg">#ff555555</color>
+	<color name="colorBkg">#ffffffff</color>
+	<color name="colorHeadText">#ffffffff</color>
+	<color name="colorLabel">#ff444444</color>
+	<color name="colorText">#ffdddddd</color>
+	<color name="colorTextLight">#ffbbbbbb</color>
+	<color name="colorTextDark">#ff888888</color>
+	<color name="colorTextBlue">#ff44aacc</color>
+</resources>

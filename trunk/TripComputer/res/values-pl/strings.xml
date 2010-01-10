@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">TripComputer</string>
+	<string name="app_version">wersja</string>
+	
+	<string name="title_tracks">Ślady</string>
+	<string name="title_newtrack">Nowy Ślad</string>
+	<string name="title_trackedit">Edycja Śladu</string>
+	<string name="title_trackdetails">Detale Śladu</string>
+	
+	<string name="title_waypoints">Punkty</string>
+	<string name="title_addwaypoint">Dodaj Punkt</string>
+	<string name="title_waypointedit">Edycja Punktu</string>
+	<string name="title_waypointdetails">Detale Punktu</string>
+	<string name="title_waypoints_download">Pobierz Punkty</string>
+
+	<string name="title_settings">Ustawienia</string>
+	<string name="title_about">O programie</string>
+
+	<string name="display_distance">DYSTANS</string>
+	<string name="display_distance_to_track">DYSTANS DO ŚLADU</string>
+	<string name="display_distance_to_waypoint">DYSTANS DO PUNKTU</string>
+	<string name="display_azimuth">AZYMUT</string>
+	<string name="display_avg_speed">ŚREDNIA PRĘDKOŚĆ</string>
+
+	<string name="display_time">CZAS</string>
+	<string name="display_time_eta_by_walk">ETA PIESZO</string>
+	<string name="display_time_eta_by_bike">ETA ROWEREM</string>
+	<string name="display_bearing">NAMIAR</string>
+	<string name="display_altitude">WYSOKOŚĆ</string>
+	
+	<string name="gps_no_fix">BRAK FIXA</string>
+
+	<string name="cmd_zoom_in">Przybliżenie</string>
+	<string name="cmd_zoom_out">Oddalenie</string>
+	<string name="cmd_zoom_location">Pokaż Bieżącą Lokalizację</string>
+
+	<string name="cmd_add_waypoint">Dodaj Punkt</string>
+	<string name="cmd_select_track">Wybór Śladu</string>
+	<string name="cmd_select_waypoint">Wybór Punktu</string>
+	<string name="cmd_change_mode">Zmiana Trybu</string>
+
+	<string name="cmd_tracks">Ślady</string>
+	<string name="cmd_waypoints">Punkty</string>
+	<string name="cmd_track_details">Detale śladu</string>
+	<string name="cmd_waypoint_details">Detale punktu</string>
+	<string name="cmd_settings">Ustawienia</string>
+	
+	<string name="cmd_new_track">Nowy Ślad</string>
+	<string name="cmd_track_edit">Edycja</string>
+	<string name="cmd_track_delete">Usuń</string>
+	<string name="cmd_track_pause">Pauza</string>
+	<string name="cmd_track_resume">Wznów</string>
+	<string name="cmd_track_stop">Stop</string>
+	<string name="cmd_track_show">Pokaż</string>
+	<string name="cmd_track_hide">Ukryj</string>
+	
+	<string name="cmd_about">O programie</string>
+	<string name="cmd_tools">Narzędzia</string>
+
+	<string name="cmd_waypoints_search">Szukaj Punktów</string>	
+	<string name="cmd_set_service_access">Ustaw Dostęp Do Serwisu</string>
+	<string name="cmd_waypoints_download">Pobierz Punkty</string>
+		
+	<string name="cmd_data_export">Eksport</string>
+
+	<string name="cmd_waypoint_edit">Edycja</string>
+	<string name="cmd_waypoint_upload">Wyślij</string>
+	<string name="cmd_waypoint_delete">Usuń</string>
+
+	<string name="cmd_mode_tracks">Ślady</string>
+	<string name="cmd_mode_compass">Kompas</string>
+	<string name="cmd_mode_loc_to_sel_wpt">Lokalizacja Do Wybranego Punktu</string>
+	<string name="cmd_mode_loc_to_sel_track">Lokalizacja Do Wybranego Śladu</string>
+	<string name="cmd_mode_info">Informacje</string>
+	
+	<string name="text_tracklist_is_empty1">Lista śladów jest pusta.</string>	
+	<string name="text_tracklist_is_empty2">Aby dodać nowy ślad, wciśnij <b>Menu</b> i wybierz <b>Nowy Ślad</b>.</string>
+
+	<string name="text_waypointlist_is_empty1">Lista punktów jest pusta.</string>	
+	<string name="text_waypointlist_is_empty2">Aby dodać nowy punkt, wciśnij <b>Menu</b> i wybierz <b>Dodaj Punkt</b>.</string>
+	
+	<string name="labelTrackName">Nazwa śladu</string>
+	<string name="labelTrackType">Dla</string>
+	<string name="labelTrackDescription">Opis</string>
+	<string name="labelDone">Zrobione</string>
+	<string name="labelRevert">Wstecz</string>
+	<string name="labelBack">Wstecz</string>
+	<string name="labelNoText">brak</string>
+	<string name="labelTrackStartTime">Czas startu</string>
+	<string name="labelTrackSummary">Podsumowanie</string>
+	<string name="labelShow">Pokaż</string>
+	<string name="labelHide">Ukryj</string>
+	<string name="labelWebsite">Otwórz stronę</string>
+	<string name="labelDownload">Pobierz</string>
+
+	<string name="labelTrackTypeWalk">pieszo</string>
+	<string name="labelTrackTypeBike">rowerem</string>
+	
+	<string name="titleAlert">Uwaga</string>
+	<string name="alert_dialog_ok">OK</string>
+	<string name="alert_dialog_yes">Tak</string>
+	<string name="alert_dialog_no">Nie</string>
+	
+	<string name="alert_msg_ok">OK</string>
+	<string name="alert_msg_db_access_error">Brak dostępu do bazy</string>
+	<string name="alert_msg_data_insert_error">Nie można dodać danych</string>
+	<string name="alert_msg_data_update_error">Nie można zaktualizować danych</string>
+	<string name="alert_msg_data_delete_error">Nie można usunąć danych</string>
+	<string name="alert_msg_create_table_error">Nie można utworzyć tabeli</string>
+	<string name="alert_msg_table_not_exists">Tabela nie istnieje</string>
+	<string name="alert_msg_enter_all_data">Wprowadź wszystkie potrzebne dane</string>
+	<string name="alert_msg_table_access_error">Nie można pobrać tabeli</string>
+	<string name="alert_msg_data_values_error">Nie można pobrać danych</string>
+	<string name="alert_msg_more_data_required">Operacja wymaga dodatkowych danych</string>
+	<string name="alert_msg_wrong_values">Niewłaściwe wartości</string>
+	<string name="alert_msg_data_find_error">Nie można pobrać danych</string>
+	
+	<string name="alert_msg_lon_out">Długość geog. poza zakresem</string>
+	<string name="alert_msg_lat_out">Szerokość geog. poza zakresem</string>
+
+	<string name="alert_msg_close_track_error">Nie można zamknąć otwartego śladu</string>
+	<string name="alert_msg_resume_recording_error">Nie można wznowić zapisywanego śladu</string>
+	
+	<string name="alert_msg_name_too_long">Nazwa jest zbyt długa. Maksymalna długość to 32 znaki</string>
+	<string name="alert_msg_desc_too_long">Opis jest zbyt długi. Maksymalna długość to 800 znaków</string>
+
+	<string name="alert_msg_server_rejected_data">Serwer odrzucił dane</string>
+
+	<string name="alert_question_delete_track">Usunąć ślad ?</string>
+	<string name="alert_question_delete_waypoint">Usunąć punkt ?</string>
+	
+	<string name="track_status_not_selected">nie wybrane</string>
+	<string name="track_status_paused">pauza</string>
+	<string name="track_status_recording">zapis</string>
+	<string name="track_visible">widoczny</string>
+		
+	<string name="notify_msg_track_paused">Zapis śladu: %s\n • został wstrzymany</string>
+	<string name="notify_msg_track_resumed">Zapis śladu: %s\n • został wznowiony</string>
+	<string name="notify_msg_gps_is_locating">Proszę czekać\n • GPS lokalizuje twoją pozycję</string>
+	<string name="notify_msg_gps_is_locating_still">Proszę czekać\n • GPS ciągle szuka twojej pozycji</string>
+
+	<string name="labelWaypointName">Nazwa punktu</string>
+	<string name="labelWaypointType">Typ</string>
+	<string name="labelWaypointDescription">Opis</string>
+	<string name="labelWaypointLocation">Lokalizacja</string>
+	<string name="labelWaypointLocation_lon">dł.</string>
+	<string name="labelWaypointLocation_lat">sz.</string>
+	<string name="labelWaypointLocation_alt">wys.</string>
+	<string name="labelWaypointLocationUpdate">aktualizuj</string>
+	<string name="labelWaypointETA">Szacunkowy Czas Przybycia (ETA)</string>
+
+	<string name="labelWaypointLocationDetails_alt">wysokość</string>
+	<string name="labelWaypointDetailsETA">pieszo: %s, rowerem: %s</string>
+			
+	<string name="labelTrackSummaryAvgSpeed">średnia prędkość</string>
+			
+	<string-array name="waypoint_types">
+		<item>inny</item>
+		<item>dom</item>
+		<item>kamping</item>
+		<item>rzeka</item>
+		<item>jezioro</item>
+		<item>las</item>
+		<item>drzewo</item>
+		<item>park</item>
+		<item>krzyżówka</item>
+		<item>most</item>
+		<item>droga</item>
+		<item>wieża</item>
+		<item>łowisko</item>
+		<item>samochód</item>		
+		<item>parking</item>		
+		<item>zdrowie</item>
+		<item>kościół</item>
+		<item>pudełko</item>
+	</string-array>
+
+	<string name="notify_msg_loc_service_disabled">Usługa lokalizacji GPS jest wyłączona</string>
+
+	<string name="status_bar_msg_track">Ślad</string>
+
+	<string name="progress_title">Proszę czekać</string>
+	<string name="progress_text">Ładowanie danych</string>
+	<string name="progress_text_gps">Lokalizacja pozycji</string>
+	<string name="progress_text_server_connecting">Łączenie z serwerem</string>
+
+	<string name="label_track_point_start">start</string>
+	<string name="label_track_point_finish">koniec</string>
+	<string name="label_track_point_last_position">ostatnia pozycja</string>
+	
+	<string name="labelMeasureSystem">System miary</string>
+	<string name="labelLocationUpdatePeriod">Częstotliwość pobierania pozycji</string>
+	<string name="labelLocationUpdatePeriodInfo">długi czas oszczędza baterię, krótki poprawia precyzję śladu</string>	
+	<string name="labelShowGrid">Siatka widoczna</string>
+	<string name="labelLocationEditDecimal">Edycja pozycji w formacie dziesiętnym</string>
+	
+	<string name="labelLocationAccuracy">Dokładność zapisu śladu</string>
+	<string name="labelLocationAccuracyInfo">mniejsza wartość daje większą dokładność, ale wymaga dobrej widoczności nieba</string>	
+
+	<string name="labelMeasureSystemUSA">Brytyjski</string>
+	<string name="labelMeasureSystemEurope">Metryczny</string>
+
+	<string-array name="location_update_periods">
+		<item>ciągła</item>
+		<item>co 2 sekundy</item>
+		<item>co 5 sekund</item>
+		<item>co 10 sekund</item>
+		<item>co 15 sekund (domyślnie)</item>
+		<item>co 30 sekund</item>
+		<item>co 45 sekund</item>
+		<item>co 1 minutę</item>
+	</string-array>
+
+	<string name="label_ui_mode">TRYB</string>
+
+	<string-array name="status_ui_modes">
+		<item>ŚLADY</item>
+		<item>KOMPAS</item>
+		<item>DO WYB. PUNKTU</item>
+		<item>DO WYB. ŚLADU</item>
+		<item>INFORMACJA</item>
+	</string-array>
+
+	<string name="location_tracking_on">Śledzenie lokalizacji włączone</string>
+	<string name="location_tracking_off">Śledzenie lokalizacji wyłączone</string>
+	
+	<string name="azimuth_degree">º</string>
+	
+	<string name="alert_question_enable_loc_service">Czy chcesz włączyć usługę lokalizacji GPS ?</string>
+	<string name="alert_calibrate_compass">Dokładność kompasu jest niska. Proszę przez kilka chwil rytmicznie zmieniać położenie urządzenia we szystkich kierunkach</string>
+	
+	<string name="info_mode_frame_location">Lokalizacja</string>
+	<string name="info_mode_frame_altgraph">Wykres wysokości</string>
+
+	<string name="btnGetServiceAccess">Kod Dostępu</string>
+	<string name="btnSetServiceAccess">OK</string>
+
+	<string name="descServiceAccess1">Aby otrzymać dostęp do serwisu, musisz wprowadzić adres email oraz kod dostępu.</string>
+	<string name="descServiceAccess2">Jeśli nie posiadasz kodu dostępu, wprowadź swój adres email i wciśnij przycisk
+  	Kod Dostępu. Zostanie on wysłany na podany adres email.</string>	
+
+	<string name="labelEmailAddress">Adres Email</string>
+	<string name="labelAccessCode">Kod Dostępu</string>
+	
+	<string name="connection_error">Przykro mi, nastąpił błąd połączenia (%d). Sprawdź czy dostęp do internetu jest włączony i spróbuj ponownie.</string>
+	<string name="access_code_invalid">Niestety, podany kod dostępu jest nieprawidłowy</string>
+	<string name="email_invalid">Niestety, podany adres email jest nieprawidłowy</string>
+
+	<string name="msg_access_code_sent">Twój Kod Dostępu został wysłany</string>
+	<string name="msg_access_code_correct">Dziękuję ! Twój Kod Dostępu jest prawidłowy. Masz dostępu do serwisu web</string>	
+
+	<string name="title_waypoint_upload">Wyślij Punkt</string>
+	<string name="labelUpload">Wyślij</string>
+		
+	<string name="labelWaypointVisibilityText">Widoczność punktu</string>
+	<string name="labelWaypointPublicText">publiczny</string>
+	<string name="labelWaypointPublicDesc">punkt będzie widoczny dla wszystkich użytkowników i NIE może być więcej aktualizowany.</string>	
+
+	<string name="wptStatusUpdate">punkt już istnieje na serwerze i zostanie zaktualizowany.</string>
+	<string name="wptStatusUpdatePublic">punkt już istnieje na serwerze. Jest to punkt publiczny, więc NIE MOŻE być aktualizowany.</string>
+	<string name="wptStatusAdd">nowy punkt do wysłania.</string>
+	
+	<string name="wptItemTextPublic">publiczny</string>
+	<string name="wptItemTextPrivate">prywatny</string>
+	<string name="wptItemTextSent">wysłany</string>
+		
+	<string name="alert_msg_gps_no_fix">Przykro mi, GPS nie znalazł jeszcze twojej lokalizacji</string>
+	<string name="alert_msg_gps_accuracy_low">Proszę poczekać na lepszą dokładność lokalizacji GPS</string>
+	
+	<string name="title_find_waypoints">Szukaj Punktów</string>
+	<string name="labelRadioBtnPublic">publiczne</string>
+	<string name="labelRadioBtnPrivate">prywatne</string>
+	<string name="labelInLocationDistance">Od bieżącej lokalizacji</string>
+	<string name="labelFind">Szukaj</string>
+
+	<string name="alert_no_waypoints_found">Nie znaleziono żadnych punktów</string>
+	<string name="alert_no_waypoints_selected">Nie wybrano punktów do pobrania</string>
+	<string name="alert_no_waypoints_added">Nie pobrano żadnych punktów</string>	
+	<string name="alert_no_waypoints_to_download">Nie ma żadnych punktów do pobrania</string>
+
+	<string name="find_distance_0">blisko</string>
+	<string name="find_distance_1">daleko</string>
+	<string name="find_distance_2">bardzo daleko</string>
+	
+	<string name="label_btn_more_items">Więcej Pozycji</string>
+	
+	<string name="title_export">Eksport</string>
+	<string name="title_export_track_to_kml">Eksport Śladu Do Pliku KML</string>		
+	<string name="labelExport">Eksport</string>
+
+	<string-array name="export_targets">
+		<item>wyślij email\'em</item>
+		<item>zapisz na kartę pamięci</item>
+	</string-array>	
+
+	<string name="label_track_start">Start</string>
+	<string name="label_track_finish">Koniec</string>
+	<string name="label_track_point">punkt</string>
+
+	<string name="label_file">Plik</string>
+	<string name="label_saved_in">zapisany w</string>
+	<string name="label_file_save_error">Nie można zapisać pliku do karty pamięci</string>
+
+	<string name="export_track_info_time">Całkowity czas</string>
+	<string name="export_track_info_distance">Całkowita odległość</string>
+	<string name="export_track_info_type">Typ</string>
+	<string name="export_track_info_start_time">Czas startu</string>
+	<string name="export_track_info_avg_speed">Średnia prędkość</string>
+	<string name="export_track_info_points">Punktów</string>
+
+	<string name="exporting_data">Eksport danych..</string>
+	<string name="send_email_select">Wybierz</string>	
+	<string name="send_email_subject_track">Dane śladu z TripComputer</string>
+	<string name="send_email_body_summary">Zobacz do pliku załącznika.</string>
+	
+	<string-array name="location_accuracy">
+		<item>10 m</item>
+		<item>20 m</item>
+		<item>50 m</item>
+		<item>100 m</item>
+		<item>200 m (domyślnie)</item>
+	</string-array>
+
+	<string name="alert_msg_enter_valid_email">Wprowadź prawidłowy adres email</string>
+	<string name="alert_msg_enter_accesscode">Wprowadź kod dostępu</string>
+	<string name="alert_msg_leave_access_code_empty">Pole Kod Dostępu musi pozostać puste !</string>
+
+	<string name="labelAboutText1">TripComputer zapisuje trasy oraz miejsca, gdziekolwiek się udasz. I pomoże odnaleźć drogę do domu.</string>
+	<string name="labelAboutText2">TripComputer używa GPS do lokalizacji pozycji. Zapisuje wycieczki, pokazuje punkty, namiar, odległość, czas i wiele innych.</string>
+	<string name="labelAboutCopy">Piotr Zagawa © 2009 - 2010</string>
+
+</resources>

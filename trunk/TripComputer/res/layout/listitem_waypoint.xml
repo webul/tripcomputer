@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:paddingLeft="6sp"
+	android:paddingRight="6sp"
+	android:orientation="vertical"		
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+  
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<ImageView android:id="@+id/itemIconWaypoint"
+			android:layout_marginRight="6sp"
+			android:layout_gravity="center"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@drawable/item_icon_waypoint"/>
+			
+	  <TextView android:id="@+id/WaypointItemName"
+	 		android:text="WaypointName"
+	 		style="@style/ListItemHeader"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal"
+		android:paddingBottom="6sp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+ 		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal"
+			android:layout_width="30sp" android:layout_height="fill_parent"/>
+ 	
+	  <TextView android:id="@+id/WaypointItemDistance"
+			android:paddingRight="6sp"
+			android:textColor="#ff227722"	 		
+	 		android:textSize="18sp" android:text="0.0 km"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	
+	  <TextView android:id="@+id/WaypointItemType"
+			android:paddingRight="6sp"
+			android:textColor="#ffee7700"	 		
+	 		android:textSize="18sp"
+	 		android:text="type"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	  <TextView android:id="@+id/WaypointItemPublic"
+	 		android:text="@string/wptItemTextPublic"
+			android:paddingRight="6sp"
+	 		android:textColor="#ffdddd00"
+	 		android:visibility="gone"
+	 		android:textStyle="italic"
+	 		android:textSize="18sp"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+	  <TextView android:id="@+id/WaypointItemPrivate"
+	 		android:text="@string/wptItemTextPrivate"
+			android:paddingRight="6sp"
+	 		android:textColor="#ff224488"
+	 		android:visibility="gone"
+	 		android:textStyle="italic"
+	 		android:textSize="18sp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	  <TextView android:id="@+id/WaypointItemSent"
+	 		android:text="@string/wptItemTextSent"
+			android:paddingRight="6sp"
+	 		android:textColor="#ff4488aa"
+	 		android:visibility="gone"
+	 		android:textStyle="italic"
+	 		android:textSize="18sp"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+	</LinearLayout>
+	
+</LinearLayout>

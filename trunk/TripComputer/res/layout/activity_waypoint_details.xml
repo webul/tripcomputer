@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+  <ScrollView android:id="@+id/scrollView"
+  	android:scrollbars="vertical"
+  	android:layout_weight="1"
+  	android:layout_width="fill_parent" android:layout_height="fill_parent">  					
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+			<!-- header NAME -->
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_marginLeft="6sp"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+				<ImageView android:id="@+id/itemIconWaypoint"
+					android:layout_marginRight="6sp"
+					android:layout_gravity="center"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/item_icon_waypoint"/>
+					
+			  <TextView android:id="@+id/InfoWaypointName"
+			 		android:text="WaypointName"
+	 				style="@style/ListItemHeader"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+			</LinearLayout>
+					
+			<!-- header TYPE -->
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_marginLeft="6sp"
+				android:orientation="horizontal"
+				android:layout_marginBottom="@dimen/marginBottom"		
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+		 		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="horizontal"
+					android:layout_width="30sp" android:layout_height="fill_parent"/>
+		 	
+			  <TextView android:id="@+id/InfoWaypointType"
+					android:paddingRight="6sp"
+			 		android:textColor="#ffee7700"
+			 		android:textSize="18sp"
+			 		android:text="type"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+					
+			</LinearLayout>					
+						
+			<!-- header LOCATION -->
+		  <TextView android:id="@+id/LabelWaypointLocation" android:text="@string/labelWaypointLocation"
+				android:layout_weight="0" android:layout_marginBottom="@dimen/labelBottom"
+				style="@style/LabelGroupHeader"				
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+			<TextView android:id="@+id/InfoWaypointLocation" android:text="@string/labelNoText"
+				android:layout_marginBottom="@dimen/marginBottom"		
+				android:paddingLeft="@dimen/ctrlPaddingLeft"
+				android:textSize="16sp"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	
+			<!-- header ETA -->
+		  <TextView android:id="@+id/LabelWaypointETA" android:text="@string/labelWaypointETA"
+				android:layout_weight="0" android:layout_marginBottom="@dimen/labelBottom"
+				style="@style/LabelGroupHeader"				
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+			<TextView android:id="@+id/InfoWaypointETA" android:text="@string/labelNoText"
+				android:layout_marginBottom="@dimen/marginBottom"		
+				android:paddingLeft="@dimen/ctrlPaddingLeft"
+				android:textSize="16sp"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+			<!-- header DESC -->
+		  <TextView android:id="@+id/LabelWaypointDescription" android:text="@string/labelWaypointDescription"
+				android:layout_weight="0" android:layout_marginBottom="@dimen/labelBottom"
+				style="@style/LabelGroupHeader"				
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+						
+			<TextView android:id="@+id/InfoWaypointDescription"
+				android:layout_marginBottom="@dimen/marginBottom"
+				android:paddingLeft="@dimen/ctrlPaddingLeft"
+				android:gravity="top"
+				android:textSize="16sp"
+				android:text="@string/labelNoText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	
+		</LinearLayout>
+
+  </ScrollView>
+		
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:paddingTop="5sp" android:paddingLeft="4sp" android:paddingRight="4sp" android:paddingBottom="1sp"
+  	android:layout_weight="0"
+		android:orientation="horizontal"
+		android:background="@drawable/bottom_bar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+		<Button android:id="@+id/ButtonRevert"
+			android:text="@string/labelBack"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+	</LinearLayout>	
+
+</LinearLayout>

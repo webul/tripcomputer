@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<style name="Label">
+	  <item name="android:textSize">16sp</item>
+	  <item name="android:textColor">#ff444444</item>
+	  <item name="android:textStyle">bold</item>	  
+	</style>
+ 	<style name="LabelDesc">
+	  <item name="android:textSize">14sp</item>
+	  <item name="android:textColor">#ff666666</item>
+	</style>
+ 	<style name="LabelListHead">
+	  <item name="android:textSize">20sp</item>
+	  <item name="android:textColor">#ff777777</item>
+	</style>
+ 	<style name="LabelListText">
+	  <item name="android:textSize">20sp</item>
+	  <item name="android:textColor">#ff444444</item>
+	</style>
+ 	<style name="ListItemHeader">
+	  <item name="android:textSize">24sp</item>
+	  <item name="android:textColor">#ff444444</item>
+	</style>
+ 	<style name="LabelGroupHeader">
+	  <item name="android:textSize">16sp</item>
+	  <item name="android:textColor">#ff000000</item>
+	  <item name="android:background">#ffdddddd</item>
+	  <item name="android:paddingLeft">8sp</item>
+	  <item name="android:paddingTop">2sp</item>
+	  <item name="android:paddingBottom">2sp</item>	  
+	</style>
+	<style name="LabelTitle">
+	  <item name="android:textSize">20sp</item>
+	  <item name="android:textColor">#ff222222</item>	  
+	  <item name="android:background">#ffffffff</item>
+	  <item name="android:paddingTop">4sp</item>
+	  <item name="android:paddingBottom">6sp</item>
+	  <item name="android:paddingLeft">12sp</item>
+	  <item name="android:paddingRight">12sp</item>
+	  <item name="android:layout_marginBottom">4sp</item>
+	</style>
+ 	<style name="CoordsSign">
+	  <item name="android:textSize">22sp</item>
+	  <item name="android:textColor">#ff444444</item>
+	  <item name="android:textStyle">bold</item>	  
+	</style>	
+</resources>

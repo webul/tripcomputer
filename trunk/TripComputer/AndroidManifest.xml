@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="15" android:versionName="1.5" package="pl.tripcomputer">
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.Light">
+
+		<service android:name=".service.TripComputerService" android:process=":remote" />
+				
+		<receiver android:name=".ServiceDataReceiver" />
+				
+		<activity android:name=".activities.ActivityMain" android:label="@string/app_name" 
+			android:screenOrientation="portrait">
+	    <intent-filter>
+	      <action android:name="android.intent.action.MAIN" />
+	      <category android:name="android.intent.category.LAUNCHER" />
+	    </intent-filter>
+		</activity>
+        
+		<activity android:name=".activities.ActivityTracks" android:label="@string/app_name">
+	    <intent-filter>
+	      <action android:name="android.intent.action.VIEW" />
+	    </intent-filter>
+		</activity>
+
+		<activity android:name=".activities.ActivityNewTrack" android:label="@string/app_name">
+	    <intent-filter>
+	      <action android:name="android.intent.action.EDIT" />
+	    </intent-filter>
+		</activity>
+
+		<activity android:name=".activities.ActivityTrackDetails" android:label="@string/app_name">
+	    <intent-filter>
+	      <action android:name="android.intent.action.VIEW" />
+	    </intent-filter>
+		</activity>
+
+		<activity android:name=".activities.ActivityWaypointDetails" android:label="@string/app_name">
+	    <intent-filter>
+	      <action android:name="android.intent.action.VIEW" />
+	    </intent-filter>
+		</activity>
+
+		<activity android:name=".activities.ActivityAddWaypoint" android:label="@string/app_name">
+	    <intent-filter>
+	      <action android:name="android.intent.action.EDIT" />
+	    </intent-filter>
+		</activity>
+
+		<activity android:name=".activities.ActivitySettings" android:label="@string/app_name">
+	    <intent-filter>
+	      <action android:name="android.intent.action.EDIT" />
+	    </intent-filter>
+		</activity>
+
+		<activity android:name=".activities.ActivityAbout" android:label="@string/app_name" android:theme="@android:style/Theme.Dialog">
+	    <intent-filter>
+	      <action android:name="android.intent.action.VIEW" />
+	    </intent-filter>
+		</activity>
+
+		<activity android:name=".activities.ActivityWaypoints" android:label="@string/app_name">
+	    <intent-filter>
+	      <action android:name="android.intent.action.VIEW" />
+	    </intent-filter>
+		</activity>
+
+		<activity android:name=".activities.ActivityServiceAccess" android:label="@string/app_name" android:theme="@android:style/Theme.Dialog">
+	    <intent-filter>
+	      <action android:name="android.intent.action.VIEW" />
+	    </intent-filter>
+		</activity>
+
+		<activity android:name=".activities.ActivityWaypointUpload" android:label="@string/app_name" android:theme="@android:style/Theme.Dialog">
+	    <intent-filter>
+	      <action android:name="android.intent.action.VIEW" />
+	    </intent-filter>
+		</activity>
+
+		<activity android:name=".activities.ActivityFindWaypoints" android:label="@string/app_name" android:theme="@android:style/Theme.Dialog">
+	    <intent-filter>
+	      <action android:name="android.intent.action.VIEW" />
+	    </intent-filter>
+		</activity>
+
+		<activity android:name=".activities.ActivityWaypointsDownload" android:label="@string/app_name">
+	    <intent-filter>
+	      <action android:name="android.intent.action.VIEW" />
+	    </intent-filter>
+		</activity>
+
+		<activity android:name=".activities.ActivityExport" android:label="@string/app_name" android:theme="@android:style/Theme.Dialog">
+	    <intent-filter>
+	      <action android:name="android.intent.action.VIEW" />
+	    </intent-filter>
+		</activity>
+		
+ 	</application>
+ 	
+	<uses-sdk android:minSdkVersion="3" />
+	
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"></uses-permission>
+	<uses-permission android:name="android.permission.CONTROL_LOCATION_UPDATES"></uses-permission>
+	<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+</manifest>

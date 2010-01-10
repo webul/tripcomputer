@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:padding="12sp"
+		android:layout_weight="1"	
+		android:orientation="vertical"
+		android:layout_marginBottom="@dimen/labelBottom"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_weight="0"
+			android:layout_marginBottom="@dimen/marginBottom"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			
+			<ImageView android:id="@+id/imgAboutIcon"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@drawable/icon">
+			</ImageView>
+			
+			<TextView android:id="@+id/LabelAboutTitle"
+				android:text="@string/app_name"
+				android:layout_marginLeft="6sp"
+				android:layout_weight="0"
+				android:textStyle="bold"
+				android:gravity="center_vertical"
+				android:textSize="18sp"
+				android:textColor="@color/colorHeadText"
+				android:layout_width="fill_parent" android:layout_height="fill_parent" />			
+			
+		</LinearLayout>
+				
+		<TextView android:id="@+id/LabelAboutText"
+			android:text="@string/labelAboutText1"
+			android:layout_weight="0"	
+			android:layout_marginBottom="@dimen/marginBottom"		
+			android:textSize="15sp"
+			android:textColor="@color/colorText"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+		<TextView android:id="@+id/LabelAboutText"
+			android:text="@string/labelAboutText2"
+			android:layout_weight="0"	
+			android:layout_marginBottom="@dimen/marginBottom"		
+			android:textSize="15sp"
+			android:textColor="@color/colorText"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+		<TextView android:id="@+id/LabelAboutVersion"
+			android:text="@string/app_version"
+			android:layout_weight="0"	
+			android:layout_marginBottom="@dimen/marginBottom"		
+			android:textStyle="bold"
+			android:textSize="15sp"
+			android:textColor="#ff66dd22"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+		<TextView android:id="@+id/LabelAboutAuthor"
+			android:text="@string/labelAboutCopy"
+			android:layout_weight="0"	
+			android:layout_marginBottom="@dimen/marginBottom"		
+			android:textSize="15sp"
+			android:textColor="#ffffaa44"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+		<TextView android:id="@+id/LabelAboutWebsite"
+			android:text="http://www.tripcomputer.pl"
+			android:layout_weight="0"	
+			android:layout_marginBottom="@dimen/labelBottom"		
+			android:textSize="15sp"
+			android:textColor="@color/colorTextBlue"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:paddingTop="5sp" android:paddingLeft="4sp" android:paddingRight="4sp" android:paddingBottom="1sp"
+		android:orientation="horizontal"
+		android:background="@drawable/bottom_bar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<Button android:id="@+id/ButtonOK"
+			android:text="@string/labelWebsite"
+			android:layout_weight="1"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+		<Button android:id="@+id/ButtonRevert"
+			android:text="@string/labelBack"
+			android:layout_weight="1"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+	</LinearLayout>	
+
+</LinearLayout>
