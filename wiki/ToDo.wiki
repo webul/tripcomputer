@@ -20,7 +20,7 @@
  * additional checkbox "Project target", enables controls Distance, Bearing and Calculate
 
 
-* 4. New menu option: *Send SMS With Location*
+* 4. New menu option: Send SMS With Location*
 
  * Body example: TripComputer. Sender location: 53.0000000000, 15.0000000000, 124. (UID_HASH).
  * UID_HASH is created from content.
