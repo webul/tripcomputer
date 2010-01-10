@@ -44,6 +44,8 @@
 
 * 12. Notification/alarm if selected waypoint in range (talks distance)*
 
-* 13. Navigation mode Follow Track - phone talks if you are going off track*
+* 13. Navigation mode _Follow Track_ - phone talks if you are going off track*
+
+* 14. Navigation mode _Return Home_*
 
 === Project is waiting for your own idea ! ===
