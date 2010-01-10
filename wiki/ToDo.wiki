@@ -1,4 +1,5 @@
-#summary List of suggestions and future improvements to do.
+#summary List of suggestions and future improvements to do
+
 
 * 1. OpenStreetMap and other (topo) maps off-line handling*
 
@@ -7,13 +8,25 @@
  * loading and displaying tiles in a view
  * selectable map projection ?
 
+
 * 2. Adding waypoints connected to track currently recording*
 
  * selecting wpt connection in wpt edit dialog (alone/connected to current track)
+
 
 * 3. Adding new waypoint, with location based on projection*
 
  * entering direction and distance
  * additional checkbox "Project target", enables controls Distance, Bearing and Calculate
 
-Project is waiting for your own idea !
+
+* 4. New menu option: *Send SMS With Location*
+
+ * Body example: TripComputer. Sender location: 53.0000000000, 15.0000000000, 124. (UID_HASH).
+ * UID_HASH is created from content.
+ * After app broadcast intent receiver gets sms int this form, UID_HASH is verified and System Notification is fired, that shows on status bar.
+ * After SN clicked by user, dialogs comes up: "Do you want to add new waypoint received from USER_X ?".
+ * After confirmation, new waypoint is created in database with phone number/contact name, sms time, "person" type.
+
+
+*Project is waiting for your own idea !*
