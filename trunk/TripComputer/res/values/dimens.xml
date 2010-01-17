@@ -5,5 +5,5 @@
 	<dimen name="marginBottomSmall">8sp</dimen>
 	<dimen name="marginTitleBottom">4sp</dimen>
 	<dimen name="ctrlPaddingLeft">8sp</dimen>	
-	<dimen name="labelGeoPosWidth">26sp</dimen>
+	<dimen name="labelGeoPosWidth">32sp</dimen>
 </resources>
