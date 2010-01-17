@@ -83,5 +83,15 @@ public class FileUtils
 			Toast.makeText(parent, sLabelSaveError, Toast.LENGTH_LONG).show();				
 		}
 	}
+
+	public static void createPath(File file)
+	{
+	  if (file.getParent() != null)
+	  {
+		  final File path = new File(file.getParent());
+		  if (!path.exists())
+		  	path.mkdirs();
+	  }		
+	}
 	
 }
