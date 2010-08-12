@@ -67,7 +67,7 @@
 			android:layout_width="fill_parent" android:layout_height="wrap_content" />
 
 		<TextView android:id="@+id/LabelAboutWebsite"
-			android:text="http://www.tripcomputer.pl"
+			android:text="http://vetch.magot.pl/tripcomputer/"
 			android:layout_weight="0"	
 			android:layout_marginBottom="@dimen/labelBottom"		
 			android:textSize="15sp"

@@ -42,7 +42,7 @@ public class ActivityAbout extends CommonActivity
 	
 	public boolean onClickedDone(Bundle data)
 	{
-		final Uri uri = Uri.parse("http://" + Main.WEB_PAGE);
+		final Uri uri = Uri.parse(Main.WEB_PAGE);
 		startActivity(new Intent(Intent.ACTION_VIEW, uri));				
 		return false;
 	}

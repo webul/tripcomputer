@@ -26,7 +26,7 @@ import pl.tripcomputer.webservice.AccessWaypointData;
 public class Main
 {
   //fields
-	public final static String WEB_PAGE = "www.tripcomputer.pl";
+	public final static String WEB_PAGE = "http://vetch.magot.pl/tripcomputer/";
 			
   //fields
 	private CommonActivity mParent = null;

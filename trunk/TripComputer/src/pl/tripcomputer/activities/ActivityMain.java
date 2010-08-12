@@ -246,6 +246,9 @@ public class ActivityMain extends CommonActivity
 
 	public static Location getLastLocation()
 	{
+		if (gpsReader == null)
+			return null;
+		
 		return gpsReader.getLastLocation();
 	}
 	
