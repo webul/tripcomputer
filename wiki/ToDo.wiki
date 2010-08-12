@@ -68,5 +68,8 @@
 
 * 17. Trips history*
 
+* 18. Improve service lifetime to stay alive or cyclic awake for gps pooling*
+
+ * Unfortunately, system can stop service at any time, so recording is stopped !
 
 === Project is waiting for your own idea ! ===
