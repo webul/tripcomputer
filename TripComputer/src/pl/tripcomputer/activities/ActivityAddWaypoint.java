@@ -307,7 +307,15 @@ public class ActivityAddWaypoint extends CommonActivity
 	
 	private int getAltitude()
 	{
-		int iAltitude = Integer.parseInt(edLocationAlt.getText().toString());
+		final String StrAltValue = edLocationAlt.getText().toString();
+		
+		int iAltitude = 0;
+
+		try
+		{
+			iAltitude = Integer.parseInt(StrAltValue);
+		} catch (NumberFormatException e) {
+		}
 		
 		if (prefs.iMeasureMode == Preferences.MEASURE_MODE_USA)
 			iAltitude = (int)Utils.footsToMeters(iAltitude);
